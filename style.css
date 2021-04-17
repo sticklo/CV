@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background: #777777;
+    background-repeat: no-repeat;
+  }
+
+  h1,h3{
+      font-family: 'PT Serif', serif;
+      font-size: 42.5px;
+      color: #333333;
+    
+      padding: 0;
+      margin: 0;     
+  }
+
+  a {
+      text-decoration: none;
+      color: #428BCA;
+  }
+
+  .container {
+    background-color: #fff;
+    margin: 0 auto;
+    width:58vw;
+    padding: 30px 50px
+  }
+
+  .top {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .top-contact {
+      font-size: small;
+      border-left:0.5px solid #777777;
+      padding-left: 10px;
+      
+  }
+  .top-contact p {
+      margin-left: 6px;
+  }
+
+.set-1{
+    display: flex;
+}
+
+.set-2{
+    display: flex;
+}
+
+.set-3{
+    display: flex;
+}
+
+img {
+    margin-top: 5px;
+    
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-1{
+    border-bottom: 0.5px solid #777777;
+    width:78% ;
+    margin-bottom: 9px;
+}
+
+.mini-container{
+    padding: 15px 30px;
+}
+
+.experience.two {
+    margin-top: 35px;
+}
+
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education.two{
+    margin-top: 35px ;
+}
+
+
+
+.certifications {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certifications.two{
+    margin-top: 35px;
+}
+
+.skills > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.skill-level {
+    display: flex;
+    
+
+}
+
+.box {
+    width: 27px;
+    height: 12px;
+    background: #a5a5a5;
+    margin: 3px;
+    transform: skewX(-20deg);
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #0397e7;
+    color: #fff;
+    margin-bottom: 0 !important;
+    margin-top: 30px !important;
+    padding: 12px 0 8px;
+    
+}
+
+.bottom p{
+    font-size: 15px;
+    text-align: center;
+    
+}
+
